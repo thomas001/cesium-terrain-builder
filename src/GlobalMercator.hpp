@@ -42,7 +42,8 @@ public:
   GlobalMercator(i_tile tileSize = 256):
     Grid(tileSize,
          CRSBounds(-cOriginShift, -cOriginShift, cOriginShift, cOriginShift),
-         cSRS)
+         cSRS,
+         2)
   {}
 
 protected:
